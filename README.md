@@ -356,5 +356,10 @@ If this project helps you, please consider giving it a ⭐ star! It helps others
 ---
 
 *Last Updated: November 2025 | Version: 2.0.0 (Python 3.12 Fixed)* 
-## Day 2 Update
-GitHub branching workflow completed successfully.
+---
+
+## Day 2 Contribution Update
+
+This repository was successfully forked, cloned, and tested using GitHub branching workflow in VS Code.
+
+Feature branch created: `feature/intro-readme`
