@@ -360,6 +360,6 @@ If this project helps you, please consider giving it a ⭐ star! It helps others
 
 ## Day 2 Contribution Update
 
-This repository was successfully forked, cloned, and tested using GitHub branching workflow in VS Code.
+This repository was successfully forked, cloned, and tested using GitHub branching workflow in VS Code. so the day2 task is completed
 
 Feature branch created: `feature/intro-readme`
