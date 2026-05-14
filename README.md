@@ -1,32 +1,5 @@
-# NIFTY 50 Stock Predictor - AI-Powered Stock Market Forecasting
-
-> **Enterprise-Grade Machine Learning Application for Real-Time Indian Stock Market Analysis & 7-Day Predictions**
-
-
----
-
-## 🎯 What is the NIFTY 50 Stock Predictor?
-
-The **NIFTY 50 Stock Predictor** is a professional-grade, open-source machine learning application designed to forecast Indian stock market trends with precision. Built with **Python 3.12**, **Streamlit**, and **advanced AI models**, this system provides institutional-quality stock predictions, technical analysis, and risk assessment tools for traders, investors, and financial analysts.
-
-Whether you're analyzing market movements, building trading strategies, or learning AI/ML in real-world fintech applications, this project delivers **7-day stock forecasts**, **confidence scoring**, **trading signals**, and **volatility analysis**—all through an intuitive web dashboard.
-
-### Key Features for Users
-- **7-Day Stock Predictions**: Highest/lowest expected prices with confidence levels
-- **Real-Time NIFTY 50 Data**: Live market data from Yahoo Finance API
-- **AI-Powered Analytics**: Random Forest + Linear Regression ensemble models
-- **Technical Indicators**: RSI, moving averages, volatility tracking
-- **Trading Signals**: Automated Buy/Sell/Hold recommendations
-- **Risk Assessment**: Comprehensive downside/upside analysis
-- **Professional Dashboard**: Interactive Streamlit UI with publication-ready charts
-
----
-
-## 🚀 Getting Started in 3 Minutes
-
-### Quick Start (Recommended)
-
-```bash
+# NIFTY 50 Stock Predictor - AI-Powered Stock Market Forecasting > **Enterprise-Grade Machine Learning Application for Real-Time Indian Stock Market Analysis & 7-Day Predictions** --- ## 🎯 What is the NIFTY 50 Stock Predictor? The **NIFTY 50 Stock Predictor** is a professional-grade, open-source machine learning application designed to forecast Indian stock market trends with precision. Built with **Python 3.12**, **Streamlit**, and **advanced AI models**, this system provides institutional-quality stock predictions, technical analysis, and risk assessment tools for traders, investors, and financial analysts. Whether you're analyzing market movements, building trading strategies, or learning AI/ML in real-world fintech applications, this project delivers **7-day stock forecasts**, **confidence scoring**, **trading signals**, and **volatility analysis**—all through an intuitive web dashboard. ### Key Features for Users - **7-Day Stock Predictions**: Highest/lowest expected prices with confidence levels - **Real-Time NIFTY 50 Data**: Live market data from Yahoo Finance API - **AI-Powered Analytics**: Random Forest + Linear Regression ensemble models - **Technical Indicators**: RSI, moving averages, volatility tracking - **Trading Signals**: Automated Buy/Sell/Hold recommendations - **Risk Assessment**: Comprehensive downside/upside analysis - **Professional Dashboard**: Interactive Streamlit UI with publication-ready charts --- ## 🚀 Getting Started in 3 Minutes ### Quick Start (Recommended)
+bash
 # Clone the repository
 git clone https://github.com/digitalblinc/nifty-50-stock-predictor.git
 cd nifty50_predictor
@@ -36,35 +9,13 @@ cd nifty50_predictor
 ### A Launch Methods
 
 **Option 1: Windows Batch File**
-```cmd
-run_app.bat
-```
-
+cmd run_app.bat
 **Option 2: Manual Installation**
-```bash
-pip install --upgrade pip setuptools wheel
-pip install --only-binary=all streamlit pandas numpy yfinance scikit-learn plotly
-python app.py
-```
-
+bash pip install --upgrade pip setuptools wheel pip install --only-binary=all streamlit pandas numpy yfinance scikit-learn plotly python app.py
 ---
 
 ## 📦 Complete Package Contents
-
-```
-nifty50_predictor_FIXED_WORKING/
-│
-├── 🚨 EMERGENCY_LAUNCHER.py      # Smart launcher (Python 3.12 certified)
-├── ⚡ run_app.bat                # Windows execution script
-├── 📱 app.py                     # Streamlit application core
-├── 📊 data_fetcher.py            # Real-time & demo data retrieval
-├── 🤖 model_trainer.py           # ML model training pipeline
-├── 🔮 predictor.py               # Prediction engine
-├── 📋 requirements.txt           # Python 3.12 dependencies
-├── 📄 README.md                  # Documentation
-└── 
-```
-
+nifty50_predictor_FIXED_WORKING/ │ ├── 🚨 EMERGENCY_LAUNCHER.py # Smart launcher (Python 3.12 certified) ├── ⚡ run_app.bat # Windows execution script ├── 📱 app.py # Streamlit application core ├── 📊 data_fetcher.py # Real-time & demo data retrieval ├── 🤖 model_trainer.py # ML model training pipeline ├── 🔮 predictor.py # Prediction engine ├── 📋 requirements.txt # Python 3.12 dependencies ├── 📄 README.md # Documentation └──
 ---
 
 ## 🔧 Python 3.12 Compatibility & Fixes
@@ -118,42 +69,13 @@ This release **completely resolves** all Python 3.12 setuptools issues that plag
 ## 📊 Dashboard Features Explained
 
 ### Real-Time Market Data
-```
-💰 Current NIFTY 50 Price: ₹24,654.70 (+₹287.45, +1.2%)
-📈 52-Week High/Low: ₹25,892 / ₹21,456
-📊 Trading Volume: 2.3M contracts
-```
-
+💰 Current NIFTY 50 Price: ₹24,654.70 (+₹287.45, +1.2%) 📈 52-Week High/Low: ₹25,892 / ₹21,456 📊 Trading Volume: 2.3M contracts
 ### AI Predictions (7-Day Forecast)
-```
-🤖 RANDOM FOREST MODEL
-├── Base Prediction: ₹24,892.15 (+0.96%)
-├── 📈 Highest Expected (7d): ₹25,389.22 (+2.98%)
-├── 📉 Lowest Expected (7d): ₹24,395.08 (-1.05%)
-└── 🎯 Confidence Level: 78.5% (High)
-
-📈 LINEAR REGRESSION
-├── Trend Direction: Bullish
-├── Momentum Score: +0.85
-└── Volatility Index: 18.2 (Moderate)
-```
-
+🤖 RANDOM FOREST MODEL ├── Base Prediction: ₹24,892.15 (+0.96%) ├── 📈 Highest Expected (7d): ₹25,389.22 (+2.98%) ├── 📉 Lowest Expected (7d): ₹24,395.08 (-1.05%) └── 🎯 Confidence Level: 78.5% (High) 📈 LINEAR REGRESSION ├── Trend Direction: Bullish ├── Momentum Score: +0.85 └── Volatility Index: 18.2 (Moderate)
 ### Trading Intelligence
-```
-🎯 Consensus Signal: 🟢 BUY
-⚖️ Risk/Reward Ratio: 1.85 (Favorable)
-⚠️ Risk Level: 🟡 MODERATE
-💡 Recommendation: Strong Upside Potential
-```
-
+🎯 Consensus Signal: 🟢 BUY ⚖️ Risk/Reward Ratio: 1.85 (Favorable) ⚠️ Risk Level: 🟡 MODERATE 💡 Recommendation: Strong Upside Potential
 ### Technical Analysis
-```
-📊 RSI (14-period): 65.2 (Overbought)
-📈 MA(20): ₹24,523.45
-📊 MA(50): ₹24,128.30
-📉 Volatility (30d): 2.1% (Normal Range)
-```
-
+📊 RSI (14-period): 65.2 (Overbought) 📈 MA(20): ₹24,523.45 📊 MA(50): ₹24,128.30 📉 Volatility (30d): 2.1% (Normal Range)
 ---
 
 ## 🔬 Technical Architecture
@@ -176,22 +98,7 @@ This release **completely resolves** all Python 3.12 setuptools issues that plag
 - **Ensemble Voting**: Consensus predictions combining multiple models
 
 ### Data Pipeline
-```
-Yahoo Finance API
-       ↓
-Data Validation & Cleaning
-       ↓
-Feature Engineering (RSI, MA, Volatility)
-       ↓
-Model Training (80% historical data)
-       ↓
-7-Day Forecasting
-       ↓
-Confidence Scoring & Risk Assessment
-       ↓
-Dashboard Visualization
-```
-
+Yahoo Finance API ↓ Data Validation & Cleaning ↓ Feature Engineering (RSI, MA, Volatility) ↓ Model Training (80% historical data) ↓ 7-Day Forecasting ↓ Confidence Scoring & Risk Assessment ↓ Dashboard Visualization
 ---
 
 ## 📈 Performance Metrics
@@ -269,24 +176,11 @@ Include:
 ## 🚀 Deployment Guide
 
 ### Local Development
-```bash
-git clone https://github.com/digitalblinc/nifty-50-stock-predictor.git
-cd nifty50_predictor
-python EMERGENCY_LAUNCHER.py
-```
-
+bash git clone https://github.com/digitalblinc/nifty-50-stock-predictor.git cd nifty50_predictor python EMERGENCY_LAUNCHER.py
 ### Docker Containerization
-```bash
-docker build -t nifty-predictor .
-docker run -p 8501:8501 nifty-predictor
-```
-
+bash docker build -t nifty-predictor . docker run -p 8501:8501 nifty-predictor
 ### Streamlit Cloud (Free Hosting)
-```bash
-# Push to GitHub, then deploy on Streamlit Cloud dashboard
-# App available at: https://[username]-nifty-predictor.streamlit.app
-```
-
+bash # Push to GitHub, then deploy on Streamlit Cloud dashboard # App available at: https://[username]-nifty-predictor.streamlit.app
 ### AWS EC2 / GCP / Azure
 See `DEPLOYMENT.md` for detailed cloud deployment instructions.
 
@@ -461,4 +355,6 @@ If this project helps you, please consider giving it a ⭐ star! It helps others
 
 ---
 
-*Last Updated: November 2025 | Version: 2.0.0 (Python 3.12 Fixed)*
+*Last Updated: November 2025 | Version: 2.0.0 (Python 3.12 Fixed)* 
+## Day 2 Update
+GitHub branching workflow completed successfully.
